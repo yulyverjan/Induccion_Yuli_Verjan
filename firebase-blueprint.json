@@ -1,0 +1,33 @@
+{
+  "collections": {
+    "apprentices": {
+      "documents": {
+        "apprentice_id_placeholder": {
+          "fields": {
+            "name": "string",
+            "document": "string",
+            "program": "string",
+            "avatar": "string",
+            "totalScore": "number",
+            "completedDays": "array",
+            "createdAt": "timestamp"
+          },
+          "collections": {
+            "evaluation_results": {
+              "documents": {
+                "result_id_placeholder": {
+                  "fields": {
+                    "dayId": "number",
+                    "score": "number",
+                    "responses": "array",
+                    "timestamp": "timestamp"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

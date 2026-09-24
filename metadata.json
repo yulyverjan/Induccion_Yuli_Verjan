@@ -1,0 +1,8 @@
+{
+  "name": "SENA Colombia",
+  "description": "Servicio Nacional de Aprendizaje SENA: formación técnica, empleo, emprendimiento y servicios para ciudadanos, empresas y comunidades en Colombia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
